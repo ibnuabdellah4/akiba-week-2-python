@@ -1,5 +1,7 @@
-i = 0
-for i in range(1,101):
+start_num = int(input("Enter the starting number: "))
+end_num = int(input("Enter the ending number: "))
+
+for i in range(start_num, end_num + 1):
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
     elif i % 3 == 0:
